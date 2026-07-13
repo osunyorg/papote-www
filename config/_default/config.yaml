@@ -9,7 +9,7 @@ params:
     active: true
   logo:
     header: /assets/images/logo-papote.svg
-    footer: /assets/images/logo.svg
+    footer: /assets/images/logo-papote.svg
   home:
     head:
       title: site
