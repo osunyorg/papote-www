@@ -2,13 +2,19 @@
 
 fr:
   title: >-
-    Libre Papote
+    Librairie Papote
   contentDir: content/fr
   locale: fr
   label: Français
   buildFuture: true
   params:
     contact_details:
+      social_networks:
+        instagram:
+          label: >-
+            librairie.papote
+          value: >-
+            https://instagram.com/librairie.papote
 
   taxonomies:
     administrator: administrators
