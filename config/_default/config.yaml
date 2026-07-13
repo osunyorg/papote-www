@@ -6,8 +6,8 @@ params:
   search:
     active: true
   logo:
-    header: /assets/images/logo.svg
-    footer: ''
+    header: /assets/images/logo-papote.svg
+    footer: /assets/images/logo.svg
   home:
     head:
       title: site
