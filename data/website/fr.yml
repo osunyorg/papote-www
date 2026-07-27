@@ -1,0 +1,58 @@
+default:
+contents_reading_time:
+  seconds: 3
+  text: >-
+    moins d'une minute
+contents:
+  - kind: block
+    template: contact
+
+
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: false
+
+    data:
+
+
+
+      contact_details:
+        postal_address:
+          data:
+
+            address: >-
+              16 rue Georges Boisseau
+
+            zipcode: >-
+              92110
+            city: >-
+              Clichy
+          text: >-
+            16 rue Georges Boisseau 92110 Clichy
+          html: >-
+            <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">16 rue Georges Boisseau</span> <span itemprop="postalCode">92110</span> <span itemprop="addressLocality">Clichy</span></address>
+
+      timetable:
+        - 
+          title: >-
+            Du lundi au samedi
+          time_slot_morning:
+            from: ""
+            to: ""
+          time_slot_afternoon:
+            from: "10:30"
+            to: "19:00"
+        - 
+          title: >-
+            Fermé le dimanche
+          time_slot_morning:
+            from: ""
+            to: ""
+          time_slot_afternoon:
+            from: ""
+            to: ""
+
+
+
