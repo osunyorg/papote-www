@@ -1,6 +1,13 @@
 ---
 title: Menu principal
 items:
+- title: Coup de cœur
+  slug: coup-de-coeur
+  target: ''
+  kind: blank
+  new_tab: false
+  children: []
+  descendants_targets: []
 - title: Actualités
   slug: actualites
   target: "/actualites/"
@@ -15,16 +22,8 @@ items:
   target: "/agenda/"
   kind: page
   new_tab: false
-  children:
-  - title: Coup de cœur
-    slug: coup-de-coeur
-    target: ''
-    kind: blank
-    new_tab: false
-    children: []
-    descendants_targets: []
-  descendants_targets:
-  - ''
+  children: []
+  descendants_targets: []
   path: "/events"
   file: content/fr/events/_index.html
 
