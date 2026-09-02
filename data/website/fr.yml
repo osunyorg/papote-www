@@ -33,6 +33,18 @@ contents:
             16 rue Georges Boisseau 92110 Clichy
           html: >-
             <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">16 rue Georges Boisseau</span> <span itemprop="postalCode">92110</span> <span itemprop="addressLocality">Clichy</span></address>
+        phone_numbers:
+          list:
+            - label: >-
+                +33 1 89 34 31 47
+              value: >-
+                tel:+33189343147
+        emails:
+          list:
+            - label: >-
+                contact@librairie-papote.fr
+              value: >-
+                mailto:contact@librairie-papote.fr
 
       timetable:
         - 
