@@ -9,7 +9,18 @@ fr:
   buildFuture: true
   params:
     contact_details:
+      emails:
+        email:
+          label: >-
+            contact@librairie-papote.fr
+          value: >-
+            mailto:contact@librairie-papote.fr
       social_networks:
+        facebook:
+          label: >-
+            librairiepapote
+          value: >-
+            https://www.facebook.com/librairiepapote
         instagram:
           label: >-
             librairie.papote
