@@ -22,7 +22,3 @@ to = "/actualites/2026-07-13-lecture-enfants-album-jeunesse-livres-petits/"
 from = "/agenda/2026/la-couleur/index.html"
 to = "/agenda/2026/atelier-decriture-avec-laure-rolin/"
 
-[[redirects]]
-from = "/agenda/2026/rencontre-avec-laetitia-sivi/index.html"
-to = "/agenda/2026/book-club/"
-
