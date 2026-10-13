@@ -10,3 +10,40 @@ footer#document-footer
         background-position: 50%
         background-repeat: no-repeat
         background-size: pxToRem(300)
+
+.hero
+    .hero-text
+        h1
+            span
+                font-size: 0.7em
+                line-height: 1.2
+
+
+.events__page
+    @include media-breakpoint-up(desktop)
+        .hero--image-square,
+        .hero--image-portrait
+            .hero-text
+                width: columns(8) !important
+            figure
+                width: columns(4) !important
+        .hero--image-landscape
+            .hero-text
+                margin-top: 0
+                width: columns(8) !important
+            figure
+                width: columns(4) !important
+        .document-content
+            min-height: 0 !important
+
+
+.footer-contents
+    @include in-page-with-or-without-sidebar
+        .block-contact
+            .contact-content
+                .contacts
+                    display: flex
+                    flex-wrap: wrap
+                    .schedule-table
+                        order: -1
+                        width: 100%
