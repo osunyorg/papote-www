@@ -23,6 +23,6 @@ from = "/agenda/2026/la-couleur/index.html"
 to = "/agenda/2026/atelier-decriture-avec-laure-rolin/"
 
 [[redirects]]
-from = "/projets/index.html"
-to = "/coups-de-coeur/"
+from = "/coups-de-coeur/index.html"
+to = "/projets/"
 

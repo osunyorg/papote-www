@@ -19,4 +19,13 @@ items:
   descendants_targets: []
   path: "/events"
   file: content/fr/events/_index.html
+- title: Coups de cœur
+  slug: coups-de-coeur
+  target: "/actualites/coups-de-coeur/"
+  kind: category
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/posts_categories/coups-de-coeur"
+  file: content/fr/posts_categories/coups-de-coeur/_index.html
 
