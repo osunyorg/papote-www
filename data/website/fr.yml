@@ -1,6 +1,6 @@
 default:
 contents_reading_time:
-  seconds: 3
+  seconds: 4
   text: >-
     moins d'une minute
 contents:
@@ -49,9 +49,18 @@ contents:
       timetable:
         - 
           title: >-
-            Du lundi au samedi
+            Du lundi au vendredi
           time_slot_morning:
             from: "10:30"
+            to: "19:00"
+          time_slot_afternoon:
+            from: ""
+            to: ""
+        - 
+          title: >-
+            Samedi
+          time_slot_morning:
+            from: "10:00"
             to: "19:00"
           time_slot_afternoon:
             from: ""
