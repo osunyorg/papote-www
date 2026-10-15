@@ -23,10 +23,10 @@ from = "/actualites/2026-07-13-laure-rolin-chez-papote/index.html"
 to = "/actualites/2026-07-13-lecture-enfants-album-jeunesse-livres-petits/"
 
 [[redirects]]
-from = "/agenda/2026/la-couleur/index.html"
-to = "/agenda/2026/atelier-decriture-avec-laure-rolin/"
-
-[[redirects]]
 from = "/coups-de-coeur/index.html"
 to = "/projets/"
+
+[[redirects]]
+from = "/actualites/2026-10-13-mon-premier-coup-de-coeur/index.html"
+to = "/actualites/2026-10-13-je-lilia-hassaine/"
 
