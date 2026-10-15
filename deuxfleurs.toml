@@ -15,12 +15,12 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/actualites/2026-07-13-laure-rolin-chez-papote/index.html"
-to = "/actualites/2026-07-13-lecture-enfants-album-jeunesse-livres-petits/"
+from = "/agenda/2026/yoga/index.html"
+to = "/agenda/2026/yoga-1/"
 
 [[redirects]]
-from = "/agenda/2026/yoga-1/index.html"
-to = "/agenda/2026/yoga/"
+from = "/actualites/2026-07-13-laure-rolin-chez-papote/index.html"
+to = "/actualites/2026-07-13-lecture-enfants-album-jeunesse-livres-petits/"
 
 [[redirects]]
 from = "/agenda/2026/la-couleur/index.html"
