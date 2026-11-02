@@ -19,8 +19,16 @@ from = "/agenda/2026/yoga/index.html"
 to = "/agenda/2026/yoga-1/"
 
 [[redirects]]
+from = "/actualites/2026-10-13-je-lilia-hassaine/index.html"
+to = "/actualites/2026-09-21-je-lilia-hassaine/"
+
+[[redirects]]
 from = "/actualites/2026-07-13-laure-rolin-chez-papote/index.html"
 to = "/actualites/2026-07-13-lecture-enfants-album-jeunesse-livres-petits/"
+
+[[redirects]]
+from = "/actualites/2025-12-01-ouverture-de-la-librairie/index.html"
+to = "/actualites/2026-11-02-ouverture-de-la-librairie/"
 
 [[redirects]]
 from = "/coups-de-coeur/index.html"
@@ -28,5 +36,5 @@ to = "/projets/"
 
 [[redirects]]
 from = "/actualites/2026-10-13-mon-premier-coup-de-coeur/index.html"
-to = "/actualites/2026-10-13-je-lilia-hassaine/"
+to = "/actualites/2026-09-21-je-lilia-hassaine/"
 
