@@ -10,8 +10,8 @@ items:
   descendants_targets: []
   path: "/events"
   file: content/fr/events/_index.html
-- title: Coup de cœur
-  slug: coup-de-coeur
+- title: Coups de cœur
+  slug: coups-de-coeur
   target: "/actualites/coups-de-coeur/"
   kind: category
   new_tab: false
