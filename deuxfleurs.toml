@@ -38,3 +38,7 @@ to = "/projets/"
 from = "/actualites/2026-10-13-mon-premier-coup-de-coeur/index.html"
 to = "/actualites/2026-09-21-je-lilia-hassaine/"
 
+[[redirects]]
+from = "/actualites/2026-11-02-lautre-ecureuil-olivier-tallec/index.html"
+to = "/actualites/2026-11-01-lautre-ecureuil-olivier-tallec/"
+
