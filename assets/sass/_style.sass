@@ -17,7 +17,8 @@ footer#document-footer
             span
                 font-size: 0.7em
                 line-height: 1.2
-
+    @include media-breakpoint-up(desktop)
+        min-height: 200px
 
 .events__page
     @include media-breakpoint-up(desktop)
@@ -47,3 +48,10 @@ footer#document-footer
                     .schedule-table
                         order: -1
                         width: 100%
+
+
+.block-call_to_action
+    &:has(.call_to_action--without-text.call_to_action--without-image)
+        .block-content
+            padding-top: 0
+            padding-bottom: 0
