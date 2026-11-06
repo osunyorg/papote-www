@@ -51,7 +51,11 @@ footer#document-footer
 
 
 .block-call_to_action
-    &:has(.call_to_action--without-text.call_to_action--without-image)
-        .block-content
-            padding-top: 0
-            padding-bottom: 0
+    &--no_background
+        &:has(.call_to_action--without-text.call_to_action--without-image)
+            .block-content
+                padding-top: 0
+                padding-bottom: 0
+                .actions
+                    > a:first-child
+                        margin-top: 0
