@@ -32,7 +32,7 @@ search:
   summary: >-
     <p>Venez découvrir notre sélection de livres pour toute la famille : romans, BDs, mangas, romans graphiques, livres jeunesse, essais... Le tout dans une ambiance chaleureuse où vous pouvez profiter de l'espace café. </p><p>La librairie organise également de nombreux évènements : lectures pour enfants, ateliers littéraires et créatifs, rencontres auteur.ices ...</p>
   body: >-
-    <p>Les dernières actus chez Papote  <br> Les prochaines dédicaces  <br> Les évènements à venir  <br>  </p>  <p>Voir tous les évènements à venir <br>https://www.librairie-papote.fr/agenda</p>  <p> Nos coups de cœur  <br> La saison des calendriers de l'avent est officiellement ouverte !   <br>Venez découvrir notre sélection de calendriers de l'avent en librairie, pour petits et grands !</p>  <p> Informations pratiques  </p>
+    <p>Les prochaines dédicaces  <br> Les dernières actus chez Papote  <br> Les évènements à venir  <br>  </p>  <p>Voir tous les évènements à venir <br>https://www.librairie-papote.fr/agenda</p>  <p> Nos coups de cœur  <br> La saison des calendriers de l'avent est officiellement ouverte !   <br>Venez découvrir notre sélection de calendriers de l'avent en librairie, pour petits et grands !</p>  <p> Informations pratiques  </p>
 
 breadcrumbs:
   - title: >-
@@ -104,65 +104,6 @@ contents:
   - kind: block
     template: title
     title: >-
-      Les dernières actus chez Papote
-    slug: >-
-      les-dernieres-actus-chez-papote
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Les dernières actus chez Papote
-        heading: 2
-
-    data:
-      layout: classic
-
-
-  - kind: block
-    template: posts
-
-
-    ranks:
-      base: 3
-      children: 3
-    top:
-      active: false
-
-    data:
-      mode: selection
-      layout: grid
-      options:
-        author: false
-        categories: false
-        date: true
-        image: true
-        reading_time: true
-        subtitle: true
-        summary: false
-
-      posts:
-        - permalink: "/actualites/2026-11-02-ouverture-de-la-librairie/"
-          path: "/posts/2026/2026-11-02-ouverture-de-la-librairie"
-          slug: "ouverture-de-la-librairie"
-          file: "content/fr/posts/2026/2026-11-02-ouverture-de-la-librairie.html"
-          name: >-
-            La librairie a bientôt 3 ans !
-        - permalink: "/actualites/2026-11-03-papote-partenaire-labaz/"
-          path: "/posts/2026/2026-11-03-papote-partenaire-labaz"
-          slug: "papote-partenaire-labaz"
-          file: "content/fr/posts/2026/2026-11-03-papote-partenaire-labaz.html"
-          name: >-
-            Papote, partenaire Labaz
-
-      quantity: 2
-
-
-  - kind: block
-    template: title
-    title: >-
       Les prochaines dédicaces
     slug: >-
       les-prochaines-dedicaces
@@ -222,6 +163,65 @@ contents:
             Dédicace de Nicolas Keramidas
 
       quantity: 1
+
+  - kind: block
+    template: title
+    title: >-
+      Les dernières actus chez Papote
+    slug: >-
+      les-dernieres-actus-chez-papote
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Les dernières actus chez Papote
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: posts
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+      mode: selection
+      layout: grid
+      options:
+        author: false
+        categories: false
+        date: true
+        image: true
+        reading_time: true
+        subtitle: true
+        summary: false
+
+      posts:
+        - permalink: "/actualites/2026-11-02-ouverture-de-la-librairie/"
+          path: "/posts/2026/2026-11-02-ouverture-de-la-librairie"
+          slug: "ouverture-de-la-librairie"
+          file: "content/fr/posts/2026/2026-11-02-ouverture-de-la-librairie.html"
+          name: >-
+            La librairie a bientôt 3 ans !
+        - permalink: "/actualites/2026-11-03-papote-partenaire-labaz/"
+          path: "/posts/2026/2026-11-03-papote-partenaire-labaz"
+          slug: "papote-partenaire-labaz"
+          file: "content/fr/posts/2026/2026-11-03-papote-partenaire-labaz.html"
+          name: >-
+            Papote, partenaire Labaz
+
+      quantity: 2
+
 
   - kind: block
     template: title
